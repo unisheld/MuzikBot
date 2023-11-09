@@ -11,38 +11,12 @@ MuzikBot - это Discord-бот, разработанный для воспро
 - `/resume`: Продолжить воспроизведение после паузы.
 - `/skip`: Пропустить текущую аудиодорожку и перейти к следующей.
 
-## Требования
 
-- **LavaPlayer версия**: 1.3.77
-- **JDA версия**: 5.0.0-beta.2
-
-## Установка и запуск
-
-1. Клонируйте репозиторий:
-
-   ```shell
-   git clone https://github.com/unisheld/MuzikBot.git
-   ```
-
-2. Установите необходимые зависимости, используя Gradle:
-
-   ```shell
-   cd MuzikBot
-   gradle clean build
-   ```
-
-3. Создайте файл конфигурации `application.properties` в папке `src/main/resources` и добавьте в него токен вашего бота Discord:
+Создайте файл конфигурации `application.properties` в папке `src/main/resources` и добавьте в него токен вашего бота Discord:
 
    ```properties
    discord.bot.token=YOUR_DISCORD_BOT_TOKEN
    ```
-
-4. Запустите бота:
-
-   ```shell
-   java -jar build/libs/muzik-bot-1.0.0.jar
-   ```
-
 
 
 Замените `YOUR_DISCORD_BOT_TOKEN` на фактический токен вашего Discord-бота.
